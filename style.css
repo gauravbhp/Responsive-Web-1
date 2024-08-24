@@ -1,0 +1,23 @@
+.g_cont{
+    height: 1200px;
+}
+
+header{
+    height: 110px;
+    background-color: #9933CC;
+}
+
+header>h2{
+    line-height: 110px;
+}
+footer{
+    height: 70px;
+    background-color: #0099CC;
+    line-height: 70px;
+}
+
+@media (max-width: 3000px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1495px;
+    }
+}
